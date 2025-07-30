@@ -17,3 +17,7 @@ Feature: Getting animals from the get API
   Scenario: Validation of negative response body for Get Animals from the application
     Given I hit the get animals api url without access token
     Then I get 401 as the response code
+
+  Scenario: Validation of negative response body for Get Animals from the application
+    Given I hit the get animals api url without access token
+    Then I get 401 as the response code
